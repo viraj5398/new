@@ -46,12 +46,12 @@ group :development do
   
 end
 
-
+gem 'better_errors', '~> 2.8', '>= 2.8.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 gem 'bulma-rails', '~> 0.9.0'
 
-gem 'better_errors', '~> 2.8', '>= 2.8.1'
+
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
